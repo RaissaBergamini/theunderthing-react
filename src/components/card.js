@@ -5,8 +5,6 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 const CardSimple = (props) => ( 
 <Card>
     <Image source={props.photo} 
-     as='a'
-     href={props.linkLinkedIn} 
      floated='center'
      size='medium' 
       wrapped ui={true} />

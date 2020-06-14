@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Input, Menu } from 'semantic-ui-react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 export default class MenuSecondary extends Component {
@@ -30,16 +30,14 @@ export default class MenuSecondary extends Component {
           name='Cooking'
           active={activeItem === 'Cooking'}
           onClick={this.handleItemClick}
-        
-        />
+        ><Link to="/cook">Cooking</Link>
+        </Menu.Item>
         <Menu.Item
           name='Media Server'
           active={activeItem === 'Media Server'}
           onClick={this.handleItemClick}
-            as='a'
-            href= './pages/mediaServer'
-        />
-
+        ><Link to="/media">Media Server</Link>
+        </Menu.Item>
         <Menu.Menu position='right'>
           <Menu.Item>
             <Input icon='search' placeholder='Search...' />
@@ -50,20 +48,4 @@ export default class MenuSecondary extends Component {
     )
   }
 }
-
-function Home() {
-    return (
-      <div>
-        <h2>Home</h2>
-      </div>
-    );
-  }
-  
-  function About() {
-    return (
-      <div>
-        <h2>About</h2>
-      </div>
-    );
-  }
   
