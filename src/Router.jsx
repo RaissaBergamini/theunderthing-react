@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './pages/home'
 import Media from './pages/mediaServer'
 import Tech from  './pages/tech'
+import Cook from  './pages/cooking'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import styled from "styled-components";
 import HeaderMenu from "./components/HeaderMenu";
@@ -43,7 +44,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/media" component={Media} />
           <Route path="/tech" component={Tech} />
-          <Route path="/cook" component={Tech} />
+          <Route path="/cook" component={Cook} />
           <Route component={MissingPage} />
         </Switch>
       </Content>

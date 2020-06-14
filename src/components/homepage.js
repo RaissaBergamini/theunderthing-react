@@ -30,21 +30,36 @@ const HomepageHeading = ({ mobile }) => (
   <Container
   >
     <Header
-      as= "h1"
-      content="The Underthing"
-      
-      style={{
-        width: 1024,
-        height: 320,
+      inverted
+      style={{  
         display: 'inline-block',
         opacity: 0.9,
-        backgroundImage: server,
+        backgroundImage: `URL('https://pics.imgrapid.com/wp-content/uploads/2019/09/03153448/security_super-micro_1003122870_top.jpg')`,
         backgroundSize: 'cover',
         fontSize: mobile ? '2em' : '4em',
+        width: 1700,
+            height: 480,
         fontWeight: 'normal',
-        marginBottom: mobile ? '1.5em' : '3em',
+        marginBottom: mobile ? '0.5em' : '1em',
+        marginTop: mobile ? '-0.2em' : '-0.3em',
+        marginLeft: mobile ? '-1em' : '-3em',
       }}>
-      
+      <h1 content= 'The Underthing'
+      style={{ 
+        fontSize: mobile ? '0.5em' : '1em',
+        fontWeight: 'normal',
+        marginTop: mobile ? '1em' : '2em',
+        marginBottom: mobile ? '0.5em' : '1em',
+        marginLeft: mobile ? '1em' : '2em'
+      }}
+      >The Underthing</h1>
+      <h3 content='Local hosted and managed server Underthing'
+      style={{ 
+        fontWeight: 'normal',
+        marginTop: mobile ? '1em' : '2em',
+        marginBottom: mobile ? '0.5em' : '1em',
+        marginLeft: mobile ? '5em' : '7em'
+      }}>Local hosted and managed server Underthing</h3>
       </Header>
     {/* <Header
       as="h2"

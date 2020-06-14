@@ -3,7 +3,8 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 const CardSimple = (props) => ( 
 <Card>
-    <Image src={props.photo} 
+    <Image src={props.photo}
+     circular 
      floated='center' 
      size='medium' 
       wrapped ui={true} />

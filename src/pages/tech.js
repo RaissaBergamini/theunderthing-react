@@ -19,24 +19,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Menu borderless inverted pointing color="blue">
-          <Container>
-            <Menu.Item header active>
-              Home
-            </Menu.Item>
-            <Menu.Item>New feature</Menu.Item>
-            <Menu.Item>Press</Menu.Item>
-            <Menu.Item>New hires</Menu.Item>
-            <Menu.Item>About</Menu.Item>
-          </Container>
-        </Menu>
         <Grid container stackable>
           <Grid.Row>
             <Segment basic>
               <Header as="h1" size="huge">
-                <Header.Content>The Semantic-UI Blog</Header.Content>
+                <Header.Content>Technology Blog</Header.Content>
                 <Header.Subheader>
-                  A simple example of creating a blog with Semantic-UI.
+                  The Underthing Instruction Manual 
                 </Header.Subheader>
               </Header>
             </Segment>
@@ -44,16 +33,14 @@ class App extends Component {
           <Grid.Row>
             <Grid.Column width={11}>
               <Header size="large" as="h2">
-                <Header.Content>Sample blog post</Header.Content>
+                <Header.Content>How to setup a local server</Header.Content>
                 <Header.Subheader>
-                  March 6, 2017 by <a href="#root">Jack</a>
+                  May 10, 2020
                 </Header.Subheader>
               </Header>
               <Divider hidden />
               <p>
-                This blog post shows a few different types of content that's
-                supported and styled with Semantic-UI. Basic typesetting, list,
-                and code are all supported.
+                TODO  
               </p>
               <Divider />
               <p>
@@ -133,7 +120,7 @@ class App extends Component {
                 consectetur est at lobortis.
               </p>
               <Divider hidden />
-              <Header size="large" as="h2">
+              {/* <Header size="large" as="h2">
                 <Header.Content>Another blog post</Header.Content>
                 <Header.Subheader>
                   April 1, 2027 by <a href="#root">Mac</a>
@@ -238,8 +225,8 @@ class App extends Component {
                 <List.Item as="a">Github</List.Item>
                 <List.Item as="a">Twitter</List.Item>
                 <List.Item as="a">Facebook</List.Item>
-              </List>
-            </Grid.Column>
+            </List> */}
+            </Grid.Column> 
           </Grid.Row>
         </Grid>
         <Segment secondary as="footer">

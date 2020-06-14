@@ -23,9 +23,9 @@ class App extends Component {
           <Grid.Row>
             <Segment basic>
               <Header as="h1" size="huge">
-                <Header.Content>Technology Blog</Header.Content>
+                <Header.Content>Cooking Book</Header.Content>
                 <Header.Subheader>
-                  The Underthing Instruction Manual 
+                  The Underthing Cooking Manual 
                 </Header.Subheader>
               </Header>
             </Segment>
@@ -33,16 +33,14 @@ class App extends Component {
           <Grid.Row>
             <Grid.Column width={11}>
               <Header size="large" as="h2">
-                <Header.Content>How to setup a local server</Header.Content>
+                <Header.Content>Classic Cookies</Header.Content>
                 <Header.Subheader>
                   May 10, 2020
                 </Header.Subheader>
               </Header>
               <Divider hidden />
               <p>
-                This blog post shows a few different types of content that's
-                supported and styled with Semantic-UI. Basic typesetting, list,
-                and code are all supported.
+                To Do
               </p>
               <Divider />
               <p>
@@ -227,8 +225,8 @@ class App extends Component {
                 <List.Item as="a">Github</List.Item>
                 <List.Item as="a">Twitter</List.Item>
                 <List.Item as="a">Facebook</List.Item>
-              </List>
-            </Grid.Column> */}
+            </List> */}
+            </Grid.Column> 
           </Grid.Row>
         </Grid>
         <Segment secondary as="footer">
