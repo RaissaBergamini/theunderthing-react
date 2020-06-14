@@ -1,6 +1,9 @@
 import PropTypes from "prop-types";
 import React from "react";
 import "./homepage.css";
+import server from '../img/server.jpg';
+
+import { Image } from 'semantic-ui-react'
 
 import "semantic-ui-css/semantic.min.css";
 
@@ -14,7 +17,7 @@ import {
   // List,
   // Menu,
   // Responsive,
-  // Segment,
+  // Segment,s  1
   // Sidebar,
   // Visibility
 } from "semantic-ui-react";
@@ -24,29 +27,35 @@ import {
  * such things.
  */
 const HomepageHeading = ({ mobile }) => (
-  <Container text>
+  <Container
+  >
     <Header
-      as="h1"
+      as= "h1"
       content="The Underthing"
-      inverted
+      
       style={{
-        fontSize: mobile ? "2em" : "4em",
-        backgroundImage: 'img/server.jpg',
-        fontWeight: "normal",
-        marginBottom: 0,
-        marginTop: mobile ? "1.5em" : "3em"
-      }}
-    />
-    <Header
+        width: 1024,
+        height: 320,
+        display: 'inline-block',
+        opacity: 0.9,
+        backgroundImage: server,
+        backgroundSize: 'cover',
+        fontSize: mobile ? '2em' : '4em',
+        fontWeight: 'normal',
+        marginBottom: mobile ? '1.5em' : '3em',
+      }}>
+      
+      </Header>
+    {/* <Header
       as="h2"
-      content="Local hosted and managed server"
+      content=
       inverted
       style={{
         fontSize: mobile ? "1.5em" : "1.7em",
         fontWeight: "normal",
         marginTop: mobile ? "1.5em" : "3.5em"
     }}
-    />
+    /> */}
     
   </Container>
 );

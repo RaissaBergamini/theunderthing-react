@@ -15,11 +15,12 @@ export default class MenuSecondary extends Component {
     <Router>
       <Menu secondary link>
         <Menu.Item
-          name='home'
-          active={activeItem === 'home'}
+          name='Home'
+          active={activeItem === 'Home'}
         ><Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item
+
           name='Tech'
           active={activeItem === 'Tech'}
           onClick={this.handleItemClick}

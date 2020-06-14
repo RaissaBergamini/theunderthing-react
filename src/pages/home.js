@@ -20,8 +20,8 @@ const App = ({ children }) => (
 
 
 var developers = [
-                  {name:'Raissa Bergamini', description:'Systems Engineer, data engineering and devops lover. Lives with three birds and a blackberry tree.', job:'Cloud Architect', photo:'./img/raissa.jpg', linkGit:"https://github.com/RaissaBergamini"}, 
-                  {name:'Gabriel Meneses', description:'', job:'Data Engineer'}
+                  {name:'Raissa Bergamini', description:'Graduated Systems engineer. Loves data engineering, devops and cooking. Lives with three birds and a blackberry tree.', job:'Cloud Architect', photo:"https://raw.githubusercontent.com/RaissaBergamini/theunderthing-react/master/src/img/raissa.jpg", linkGit:"https://github.com/RaissaBergamini", linkLinkedin:""}, 
+                  {name:'Gabriel Meneses', description:'', job:'Data Engineer', photo:"https://raw.githubusercontent.com/RaissaBergamini/theunderthing-react/master/src/img/gabriel.jpg", linkGit:"https://github.com/RaissaBergamini", linkLinkedin:""}, 
                 ]
 
 class HomePage extends Component {

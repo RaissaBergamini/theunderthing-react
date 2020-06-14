@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from './themes/theme'
 import Router from './Router'
 import { toast, Slide } from 'react-toastify'
-import Menu from "./components/menu";
+//  import Menu from "./components/menu";
 
 toast.configure({
   autoClose: 5000,
@@ -16,7 +16,6 @@ toast.configure({
 
 const App = () => (
   <ThemeProvider theme={theme}>
-      <Menu/>
       <Router />
   </ThemeProvider>
 )

@@ -1,18 +1,17 @@
-
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 const CardSimple = (props) => ( 
 <Card>
-    <Image source={props.photo} 
-     floated='center'
+    <Image src={props.photo} 
+     floated='center' 
      size='medium' 
       wrapped ui={true} />
     <Card.Content>
       <Card.Header>{props.name}</Card.Header>
       <Card.Meta>
-        <span className='date'>{props.photo}</span>
-      </Card.Meta>
+        <span className='date'>{props.job}</span>
+      </Card.Meta>  
       <Card.Description>
         {props.description}
       </Card.Description>
